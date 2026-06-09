@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap'); /* Import a clean, modern sans-serif font */
+
+body {
+  background-color: #e3f2f9; /* Use a light, calming background color for the full page */
+  color: #0f2e47; /* Set the default text color for readable contrast */
+  font-family: 'Poppins', Arial, Helvetica, sans-serif; /* Apply the imported font first, with fallbacks if unavailable */
+  margin: 0; /* Remove default browser page margin */
+}
+
+main header,
+main section {
+  text-align: center; /* Center text inside the header and card container */
+}
+
+main {
+  background-color: #ffffff; /* White background for the card area */
+  border: 1px solid #b8d4e8; /* Light border to define the card edges */
+  border-radius: 18px; /* Rounded corners for a soft card shape */
+  box-shadow: 0 12px 24px rgba(15, 46, 71, 0.08); /* Subtle shadow to lift the card off the page */
+  margin: 2rem auto; /* Center the card horizontally and add vertical space */
+  max-width: 420px; /* Limit the card width so it stays compact */
+  padding: 2rem 1.5rem; /* Add inside spacing so content does not touch the edges */
+}
+
+main video,
+main img {
+  width: 100%; /* Fill the card width */
+  max-width: 100%; /* Keep media inside the card width */
+  max-height: 240px; /* Keep the media smaller so it doesn't take too much space */
+  height: auto; /* Preserve aspect ratio */
+  display: block; /* Remove inline spacing */
+  margin: 0 auto 1.5rem; /* Center media and add spacing below */
+  border-radius: 14px; /* Slight rounding to match the card shape */
+}
+
+main ul {
+  list-style: none; /* Remove bullet points from the list */
+  padding: 0; /* Remove default list padding */
+  margin: 0; /* Remove default list margin */
+}
+
+main ul li {
+  margin-bottom: 0.5rem; /* Add spacing between list items */
+}
+
+header h1 {
+  color: #1b4264; /* Use a darker blue for the main title */
+  margin: 1.5rem 0 0.5rem; /* Space above and below the title for better separation */
+}
+
+main section h2 {
+  color: #2a7ab8; /* Use a complementary blue tone for the subtitle */
+  margin: 0.5rem 0 0.5rem; /* Keep the subtitle close to the title with a small top gap */
+}
+
+main section p {
+  margin-top: 2rem; /* Add extra space above the paragraph to separate it from headings */
+  line-height: 1.7; /* Improve paragraph legibility with line spacing */
+}
